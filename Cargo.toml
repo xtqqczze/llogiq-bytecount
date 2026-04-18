@@ -1,7 +1,8 @@
 [package]
 authors = ["Andre Bogus <bogusandre@gmail.de>", "Joshua Landau <joshua@landau.ws>"]
 description = "count occurrences of a given byte, or the number of UTF-8 code points, in a byte slice, fast"
-edition = "2018"
+edition = "2021"
+rust-version = "1.61.0"
 name = "bytecount"
 version = "0.6.9"
 license = "Apache-2.0/MIT"
