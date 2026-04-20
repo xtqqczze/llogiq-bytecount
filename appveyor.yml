@@ -69,6 +69,7 @@ cache:
     - C:\Users\appveyor\.cargo\registry
 
 test_script:
+    - echo PATH=%PATH%
     - echo RUSTFLAGS=%RUSTFLAGS%
     - echo FEATURES=%FEATURES%
     - cargo test --target %TARGET% %FEATURES%
